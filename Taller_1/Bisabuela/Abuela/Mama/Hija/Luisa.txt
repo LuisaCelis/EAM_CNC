@@ -1,0 +1,6 @@
+Nombre: Luisa
+Apellido: Celis
+Correo: luisacelis@gmail.com
+RH: O+
+cm: 156
+

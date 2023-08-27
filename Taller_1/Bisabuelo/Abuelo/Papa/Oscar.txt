@@ -1,0 +1,5 @@
+Nombre: Oscar
+Apellido: Celis
+Correo: oscarcelis@gmail.com
+RH: O+
+cm: 173

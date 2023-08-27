@@ -1,0 +1,5 @@
+Nombre: Valeria
+Apellido: Celis
+Correo: valeriacelis@gmail.com
+RH: O+
+cm: 120
