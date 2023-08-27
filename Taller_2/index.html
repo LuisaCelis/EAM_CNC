@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Taller 2</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  .container {
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+  }
+  header {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  h1 {
+    margin: 0;
+  }
+  p {
+    margin-top: 20px;
+  }
+  .button {
+    display: inline-block;
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .button:hover {
+    background-color: #247ba0;
+  }
+</style>
+</head>
+<body>
+<header>
+    <h1>Bienvenido a la Presentación de Linux</h1>
+  </header>
+  <div class="container">
+    <h2>¿Qué es Linux?</h2>
+    <p>Linux es un sistema operativo de código abierto basado en el kernel Linux. Es conocido por su estabilidad, seguridad y flexibilidad. Linux se utiliza en una variedad de dispositivos, desde servidores y supercomputadoras hasta dispositivos móviles y sistemas embebidos.</p>
+    <!-- Más contenido aquí -->
+    <a class="button" id="moreInfoButton" href="#">Más Información</a>
+    <div id="infoModal" class="modal">
+      <h2>La Fundación Linux</h2>
+      <p>La Fundación Linux es una organización sin fines de lucro que respalda el desarrollo de Linux y fomenta la colaboración en el ecosistema de código abierto.</p>
+      <p>Visita su sitio web para aprender más sobre Linux y cómo puedes contribuir.</p>
+      <a class="button" href="https://www.linuxfoundation.org/" target="_blank">Sitio Web de la Fundación Linux</a>
+      <button class="button" id="closeModal">Cerrar</button>
+    </div>
+  </div>
+  <script>
+    const moreInfoButton = document.getElementById('moreInfoButton');
+    const closeModalButton = document.getElementById('closeModal');
+    const infoModal = document.getElementById('infoModal');
+
+    moreInfoButton.addEventListener('click', () => {
+      infoModal.style.display = 'block';
+    });
+
+    closeModalButton.addEventListener('click', () => {
+      infoModal.style.display = 'none';
+    });
+  </script>
+</body>
+</html>
